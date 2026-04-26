@@ -1,0 +1,83 @@
+.images{
+    border:1px solid black;
+    border-radius:10px;
+    padding:5px;
+}
+.list a:focus,.list a:hover{
+    letter-spacing: 0em;
+    font-weight:bold;
+    text-decoration: none;
+
+}
+button{
+    float :right;
+    margin:0;
+}
+textarea.form-control{
+    height:200px;
+}
+
+h2{
+    font-family:"league";
+    color:black;
+}
+.form{
+    padding:10px;
+    background-image: radial-gradient(closest-side ellipse at center, rgba(96, 94, 94, 0.22), rgba(128, 126, 126, 0.08));
+    box-shadow: 1px 1px 24px rgba(77, 75, 75, 0.13);
+}
+.form input{
+    padding:5px;
+    border-radius:5px;
+    margin:10px 5px;
+    border:1px solid black;
+}
+
+.cat span{
+    margin-right:10px;
+}
+.caser{
+    overflow: auto;
+    height: 220px;
+    padding:0;
+}
+.case{
+    height:300px;
+    box-shadow: 1px 1px 24px rgba(31, 30, 30, 0.13);
+    text-align: center;
+    padding:5px;
+    margin-bottom:40px;
+}
+.case label{
+    font-family: poppins;
+}
+.case label:after{
+    border-bottom: 1px solid grey;
+    content: '';
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+}
+.listing{
+    text-align: left;
+    align-content: center;
+    align-items: center;
+    display:flex;
+}
+.listing p{margin:0;padding:0;}
+
+.listing button{
+
+    margin:0;
+    padding:0;
+    border:none;
+    background: none;
+}
+.listing button:hover{
+    color:red;
+}
+.listing form{
+    margin:0;
+}
+.listing h5{margin:0;padding:0;}
